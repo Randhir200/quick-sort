@@ -23,7 +23,7 @@ function runProgram(input) {
             while(low<right&&arr[low]<=arr[pivot]){
                 low++
             }
-            while(high>=low&&arr[high]>arr[pivot]){
+            while(high>left&&arr[high]>arr[pivot]){
                 high--
             }
             
